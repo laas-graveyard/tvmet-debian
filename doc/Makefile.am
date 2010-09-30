@@ -181,7 +181,7 @@ doc-dist: doxygen-api
 	tar cf - -C ./html . | bzip2 --best -c > $(PACKAGE)-docs-$(VERSION).tar.bz2
 
 # where to install all html documents
-TVMET_DOC_DIR = $(datadir)/doc/$(PACKAGE)-$(VERSION)
+TVMET_DOC_DIR = $(DESTDIR)$(datadir)/doc/$(PACKAGE)-$(VERSION)
 
 # Automake's "distcheck" is sensitive to having files left over
 # after "make uninstall", so we have to clean up the install hook.
