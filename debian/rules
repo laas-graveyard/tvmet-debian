@@ -13,5 +13,10 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 --enable-optimize --enable-debug --disable-cppunit
 
+override_dh_auto_install:
+	mkdir -p debian/libtvmet-dev/usr/lib/pkgconfig/
+	cp tvmet.spec debian/libtvmet-dev/usr/lib/pkgconfig/
+	dh_auto_install --
+
 %:
 	dh  $@
