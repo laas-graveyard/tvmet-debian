@@ -1,0 +1,23 @@
+This work was packaged for Debian by:
+
+    Thomas Moulard <thomas.moulard@gmail.com> on Tue, 30 Sep 2010 21:08:00 +0200
+
+It was downloaded from http://sourceforge.net/projects/tvmet/files/
+
+Upstream Author(s):
+
+    Olaf Petzold <opetzold@users.sourceforge.net>
+
+Copyright:
+
+    Copyright (C) 2001 - 2007 Olaf Petzold <opetzold@users.sourceforge.net>
+
+License:
+
+    See `/usr/share/common-licenses/LGPL-2.1'.
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Thomas Moulard <thomas.moulard@gmail.com>
+    and is licensed under the GPL version 3,
+    see `/usr/share/common-licenses/GPL-3'.
