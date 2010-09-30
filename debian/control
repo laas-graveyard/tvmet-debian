@@ -12,24 +12,9 @@ Package: libtvmet-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}
-Suggests: libtvmet-doc
 Description: tvmet development package
  This Tiny Vector and Matrix template library uses Meta Templates (MT)
  and Expression Templates (ET) to evaluate results at compile time --
  which makes it fast for low order (tiny) systems.
  "Tiny" is a subjective term, but typically means vectors and matrices
  of size ten (10) or less.
-
-
-Package: libtvmet-doc
-Section: doc
-Architecture: all
-Depends: ${misc:Depends}
-Description: tvmet documentation
- This Tiny Vector and Matrix template library uses Meta Templates (MT)
- and Expression Templates (ET) to evaluate results at compile time --
- which makes it fast for low order (tiny) systems.
- "Tiny" is a subjective term, but typically means vectors and matrices
- of size ten (10) or less.
- .
- This package contains this software documentation.
